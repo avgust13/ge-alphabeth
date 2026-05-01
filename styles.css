@@ -63,6 +63,14 @@ button {
   letter-spacing: 0.08em;
 }
 
+.translation {
+  min-height: 34px;
+  margin-top: 14px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .inputs-row {
   margin-top: 12px;
   display: flex;

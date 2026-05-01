@@ -1,195 +1,502 @@
 ﻿[
-  {
-    "georgian": "ბანკი",
-    "russian": "банки",
-    "meaning": "банк",
-    "similarity": "RU: банк / EN: bank"
-  },
-  {
-    "georgian": "ტაქსი",
-    "russian": "такси",
-    "meaning": "такси",
-    "similarity": "RU: такси / EN: taxi"
-  },
-  {
-    "georgian": "ტელეფონი",
-    "russian": "телефони",
-    "meaning": "телефон",
-    "similarity": "RU: телефон / EN: telephone"
-  },
-  {
-    "georgian": "პარკი",
-    "russian": "парки",
-    "meaning": "парк",
-    "similarity": "RU: парк / EN: park"
-  },
-  {
-    "georgian": "ფილმი",
-    "russian": "филми",
-    "meaning": "фильм",
-    "similarity": "RU: фильм / EN: film"
-  },
-  {
-    "georgian": "მუზეუმი",
-    "russian": "музеуми",
-    "meaning": "музей",
-    "similarity": "RU: музей / EN: museum"
-  },
-  {
-    "georgian": "ბიზნესი",
-    "russian": "бизнеси",
-    "meaning": "бизнес",
-    "similarity": "RU: бизнес / EN: business"
-  },
-  {
-    "georgian": "ინტერნეტი",
-    "russian": "интернети",
-    "meaning": "интернет",
-    "similarity": "RU: интернет / EN: internet"
-  },
-  {
-    "georgian": "კაფე",
-    "russian": "кафе",
-    "meaning": "кафе",
-    "similarity": "RU: кафе / EN: cafe"
-  },
-  {
-    "georgian": "ოფისი",
-    "russian": "офиси",
-    "meaning": "офис",
-    "similarity": "RU: офис / EN: office"
-  },
-  {
-    "georgian": "მეტრო",
-    "russian": "метро",
-    "meaning": "метро",
-    "similarity": "RU: метро / EN: metro"
-  },
-  {
-    "georgian": "ავტობუსი",
-    "russian": "автобуси",
-    "meaning": "автобус",
-    "similarity": "RU: автобус / EN: bus"
-  },
-  {
-    "georgian": "რესტორანი",
-    "russian": "ресторани",
-    "meaning": "ресторан",
-    "similarity": "RU: ресторан / EN: restaurant"
-  },
-  {
-    "georgian": "კომპიუტერი",
-    "russian": "компиутери",
-    "meaning": "компьютер",
-    "similarity": "RU: компьютер / EN: computer"
-  },
-  {
-    "georgian": "რადიო",
-    "russian": "радио",
-    "meaning": "радио",
-    "similarity": "RU: радио / EN: radio"
-  },
-  {
-    "georgian": "ვიდეო",
-    "russian": "видео",
-    "meaning": "видео",
-    "similarity": "RU: видео / EN: video"
-  },
-  {
-    "georgian": "ფოტო",
-    "russian": "фото",
-    "meaning": "фото",
-    "similarity": "RU: фото / EN: photo"
-  },
-  {
-    "georgian": "მუსიკა",
-    "russian": "музика",
-    "meaning": "музыка",
-    "similarity": "RU: музыка / EN: music"
-  },
-  {
-    "georgian": "გიტარა",
-    "russian": "гитара",
-    "meaning": "гитара",
-    "similarity": "RU: гитара / EN: guitar"
-  },
-  {
-    "georgian": "სპორტი",
-    "russian": "спорти",
-    "meaning": "спорт",
-    "similarity": "RU: спорт / EN: sport"
-  },
-  {
-    "georgian": "თეატრი",
-    "russian": "театри",
-    "meaning": "театр",
-    "similarity": "RU: театр / EN: theater"
-  },
-  {
-    "georgian": "კლასი",
-    "russian": "класи",
-    "meaning": "класс",
-    "similarity": "RU: класс / EN: class"
-  },
-  {
-    "georgian": "უნივერსიტეტი",
-    "russian": "университети",
-    "meaning": "университет",
-    "similarity": "RU: университет / EN: university"
-  },
-  {
-    "georgian": "პასპორტი",
-    "russian": "паспорти",
-    "meaning": "паспорт",
-    "similarity": "RU: паспорт / EN: passport"
-  },
-  {
-    "georgian": "ბარი",
-    "russian": "бари",
-    "meaning": "бар",
-    "similarity": "RU: бар / EN: bar"
-  },
-  {
-    "georgian": "ბაზარი",
-    "russian": "базари",
-    "meaning": "базар",
-    "similarity": "RU: базар / EN: bazaar"
-  },
-  {
-    "georgian": "სალონი",
-    "russian": "салони",
-    "meaning": "салон",
-    "similarity": "RU: салон / EN: salon"
-  },
-  {
-    "georgian": "დოლარი",
-    "russian": "долари",
-    "meaning": "доллар",
-    "similarity": "RU: доллар / EN: dollar"
-  },
-  {
-    "georgian": "ევრო",
-    "russian": "евро",
-    "meaning": "евро",
-    "similarity": "RU: евро / EN: euro"
-  },
-  {
-    "georgian": "პრობლემა",
-    "russian": "проблема",
-    "meaning": "проблема",
-    "similarity": "RU: проблема / EN: problem"
-  },
-  {
-    "georgian": "მინისტრი",
-    "russian": "министри",
-    "meaning": "министр",
-    "similarity": "RU: министр / EN: minister"
-  },
-  {
-    "georgian": "დირექტორი",
-    "russian": "директори",
-    "meaning": "директор",
-    "similarity": "RU: директор / EN: director"
-  }
+    {
+        "georgian":  "ბანკი",
+        "russian":  "банки",
+        "translation":  "банк"
+    },
+    {
+        "georgian":  "ტაქსი",
+        "russian":  "такси",
+        "translation":  "такси"
+    },
+    {
+        "georgian":  "ტელეფონი",
+        "russian":  "телефони",
+        "translation":  "телефон"
+    },
+    {
+        "georgian":  "პარკი",
+        "russian":  "парки",
+        "translation":  "парк"
+    },
+    {
+        "georgian":  "ფილმი",
+        "russian":  "филми",
+        "translation":  "фильм"
+    },
+    {
+        "georgian":  "მუზეუმი",
+        "russian":  "музеуми",
+        "translation":  "музей"
+    },
+    {
+        "georgian":  "ბიზნესი",
+        "russian":  "бизнеси",
+        "translation":  "бизнес"
+    },
+    {
+        "georgian":  "ინტერნეტი",
+        "russian":  "интернети",
+        "translation":  "интернет"
+    },
+    {
+        "georgian":  "კაფე",
+        "russian":  "кафе",
+        "translation":  "кафе"
+    },
+    {
+        "georgian":  "ოფისი",
+        "russian":  "офиси",
+        "translation":  "офис"
+    },
+    {
+        "georgian":  "მეტრო",
+        "russian":  "метро",
+        "translation":  "метро"
+    },
+    {
+        "georgian":  "ავტობუსი",
+        "russian":  "автобуси",
+        "translation":  "автобус"
+    },
+    {
+        "georgian":  "რესტორანი",
+        "russian":  "ресторани",
+        "translation":  "ресторан"
+    },
+    {
+        "georgian":  "კომპიუტერი",
+        "russian":  "компиутери",
+        "translation":  "компьютер"
+    },
+    {
+        "georgian":  "რადიო",
+        "russian":  "радио",
+        "translation":  "радио"
+    },
+    {
+        "georgian":  "ვიდეო",
+        "russian":  "видео",
+        "translation":  "видео"
+    },
+    {
+        "georgian":  "ფოტო",
+        "russian":  "фото",
+        "translation":  "фото"
+    },
+    {
+        "georgian":  "მუსიკა",
+        "russian":  "музика",
+        "translation":  "музыка"
+    },
+    {
+        "georgian":  "გიტარა",
+        "russian":  "гитара",
+        "translation":  "гитара"
+    },
+    {
+        "georgian":  "სპორტი",
+        "russian":  "спорти",
+        "translation":  "спорт"
+    },
+    {
+        "georgian":  "თეატრი",
+        "russian":  "театри",
+        "translation":  "театр"
+    },
+    {
+        "georgian":  "კლასი",
+        "russian":  "класи",
+        "translation":  "класс"
+    },
+    {
+        "georgian":  "უნივერსიტეტი",
+        "russian":  "университети",
+        "translation":  "университет"
+    },
+    {
+        "georgian":  "პასპორტი",
+        "russian":  "паспорти",
+        "translation":  "паспорт"
+    },
+    {
+        "georgian":  "ბარი",
+        "russian":  "бари",
+        "translation":  "бар"
+    },
+    {
+        "georgian":  "ბაზარი",
+        "russian":  "базари",
+        "translation":  "базар"
+    },
+    {
+        "georgian":  "სალონი",
+        "russian":  "салони",
+        "translation":  "салон"
+    },
+    {
+        "georgian":  "დოლარი",
+        "russian":  "долари",
+        "translation":  "доллар"
+    },
+    {
+        "georgian":  "ევრო",
+        "russian":  "евро",
+        "translation":  "евро"
+    },
+    {
+        "georgian":  "პრობლემა",
+        "russian":  "проблема",
+        "translation":  "проблема"
+    },
+    {
+        "georgian":  "მინისტრი",
+        "russian":  "министри",
+        "translation":  "министр"
+    },
+    {
+        "georgian":  "დირექტორი",
+        "russian":  "директори",
+        "translation":  "директор"
+    },
+    {
+        "georgian":  "სკოლა",
+        "russian":  "скола",
+        "translation":  "школа"
+    },
+    {
+        "georgian":  "წიგნი",
+        "russian":  "цигни",
+        "translation":  "книга"
+    },
+    {
+        "georgian":  "სახლი",
+        "russian":  "сахли",
+        "translation":  "дом"
+    },
+    {
+        "georgian":  "ქალაქი",
+        "russian":  "калаки",
+        "translation":  "город"
+    },
+    {
+        "georgian":  "ქუჩა",
+        "russian":  "куча",
+        "translation":  "улица"
+    },
+    {
+        "georgian":  "მაღაზია",
+        "russian":  "магазиа",
+        "translation":  "магазин"
+    },
+    {
+        "georgian":  "ბილეთი",
+        "russian":  "билети",
+        "translation":  "билет"
+    },
+    {
+        "georgian":  "აეროპორტი",
+        "russian":  "аеропорти",
+        "translation":  "аэропорт"
+    },
+    {
+        "georgian":  "ვაგონი",
+        "russian":  "вагони",
+        "translation":  "вагон"
+    },
+    {
+        "georgian":  "მატარებელი",
+        "russian":  "матаребели",
+        "translation":  "поезд"
+    },
+    {
+        "georgian":  "მანქანა",
+        "russian":  "манкана",
+        "translation":  "машина"
+    },
+    {
+        "georgian":  "სასტუმრო",
+        "russian":  "састумро",
+        "translation":  "гостиница"
+    },
+    {
+        "georgian":  "ოთახი",
+        "russian":  "отахи",
+        "translation":  "комната"
+    },
+    {
+        "georgian":  "კარი",
+        "russian":  "кари",
+        "translation":  "дверь"
+    },
+    {
+        "georgian":  "ფანჯარა",
+        "russian":  "фанжара",
+        "translation":  "окно"
+    },
+    {
+        "georgian":  "მაგიდა",
+        "russian":  "магида",
+        "translation":  "стол"
+    },
+    {
+        "georgian":  "სკამი",
+        "russian":  "сками",
+        "translation":  "стул"
+    },
+    {
+        "georgian":  "წიგნები",
+        "russian":  "цигнеби",
+        "translation":  "книги"
+    },
+    {
+        "georgian":  "რვეული",
+        "russian":  "рвеули",
+        "translation":  "тетрадь"
+    },
+    {
+        "georgian":  "კალამი",
+        "russian":  "калами",
+        "translation":  "ручка"
+    },
+    {
+        "georgian":  "ფანქარი",
+        "russian":  "фанкари",
+        "translation":  "карандаш"
+    },
+    {
+        "georgian":  "წყალი",
+        "russian":  "цкали",
+        "translation":  "вода"
+    },
+    {
+        "georgian":  "პური",
+        "russian":  "пури",
+        "translation":  "хлеб"
+    },
+    {
+        "georgian":  "ყავა",
+        "russian":  "кава",
+        "translation":  "кофе"
+    },
+    {
+        "georgian":  "ჩაი",
+        "russian":  "чаи",
+        "translation":  "чай"
+    },
+    {
+        "georgian":  "რძე",
+        "russian":  "рзе",
+        "translation":  "молоко"
+    },
+    {
+        "georgian":  "ხაჭო",
+        "russian":  "хачо",
+        "translation":  "творог"
+    },
+    {
+        "georgian":  "ხორცი",
+        "russian":  "хорци",
+        "translation":  "мясо"
+    },
+    {
+        "georgian":  "თევზი",
+        "russian":  "тевзи",
+        "translation":  "рыба"
+    },
+    {
+        "georgian":  "ბრინჯი",
+        "russian":  "бринжи",
+        "translation":  "рис"
+    },
+    {
+        "georgian":  "კარტოფილი",
+        "russian":  "картофили",
+        "translation":  "картофель"
+    },
+    {
+        "georgian":  "ხილი",
+        "russian":  "хили",
+        "translation":  "фрукты"
+    },
+    {
+        "georgian":  "ვაშლი",
+        "russian":  "вашли",
+        "translation":  "яблоко"
+    },
+    {
+        "georgian":  "ბანანი",
+        "russian":  "банани",
+        "translation":  "банан"
+    },
+    {
+        "georgian":  "ლიმონი",
+        "russian":  "лимони",
+        "translation":  "лимон"
+    },
+    {
+        "georgian":  "ფორთოხალი",
+        "russian":  "фортохали",
+        "translation":  "апельсин"
+    },
+    {
+        "georgian":  "შაქარი",
+        "russian":  "шакари",
+        "translation":  "сахар"
+    },
+    {
+        "georgian":  "მარილი",
+        "russian":  "марили",
+        "translation":  "соль"
+    },
+    {
+        "georgian":  "სუპი",
+        "russian":  "супи",
+        "translation":  "суп"
+    },
+    {
+        "georgian":  "სალათი",
+        "russian":  "салати",
+        "translation":  "салат"
+    },
+    {
+        "georgian":  "კვირა",
+        "russian":  "квира",
+        "translation":  "неделя"
+    },
+    {
+        "georgian":  "დღე",
+        "russian":  "дге",
+        "translation":  "день"
+    },
+    {
+        "georgian":  "ღამე",
+        "russian":  "гаме",
+        "translation":  "ночь"
+    },
+    {
+        "georgian":  "დილა",
+        "russian":  "дила",
+        "translation":  "утро"
+    },
+    {
+        "georgian":  "საღამო",
+        "russian":  "сагамо",
+        "translation":  "вечер"
+    },
+    {
+        "georgian":  "წელი",
+        "russian":  "цели",
+        "translation":  "год"
+    },
+    {
+        "georgian":  "თვე",
+        "russian":  "тве",
+        "translation":  "месяц"
+    },
+    {
+        "georgian":  "საათი",
+        "russian":  "саати",
+        "translation":  "час"
+    },
+    {
+        "georgian":  "წუთი",
+        "russian":  "цути",
+        "translation":  "минута"
+    },
+    {
+        "georgian":  "მეგობარი",
+        "russian":  "мегобари",
+        "translation":  "друг"
+    },
+    {
+        "georgian":  "ოჯახი",
+        "russian":  "ожахи",
+        "translation":  "семья"
+    },
+    {
+        "georgian":  "დედა",
+        "russian":  "деда",
+        "translation":  "мама"
+    },
+    {
+        "georgian":  "მამა",
+        "russian":  "мама",
+        "translation":  "папа"
+    },
+    {
+        "georgian":  "და",
+        "russian":  "да",
+        "translation":  "сестра"
+    },
+    {
+        "georgian":  "ძმა",
+        "russian":  "зма",
+        "translation":  "брат"
+    },
+    {
+        "georgian":  "ბავშვი",
+        "russian":  "бавшви",
+        "translation":  "ребенок"
+    },
+    {
+        "georgian":  "კაცი",
+        "russian":  "каци",
+        "translation":  "мужчина"
+    },
+    {
+        "georgian":  "ქალი",
+        "russian":  "кали",
+        "translation":  "женщина"
+    },
+    {
+        "georgian":  "ბიჭი",
+        "russian":  "бичи",
+        "translation":  "мальчик"
+    },
+    {
+        "georgian":  "გოგო",
+        "russian":  "гого",
+        "translation":  "девочка"
+    },
+    {
+        "georgian":  "სახელი",
+        "russian":  "сахели",
+        "translation":  "имя"
+    },
+    {
+        "georgian":  "გვარი",
+        "russian":  "гвари",
+        "translation":  "фамилия"
+    },
+    {
+        "georgian":  "ენა",
+        "russian":  "ена",
+        "translation":  "язык"
+    },
+    {
+        "georgian":  "რუსული",
+        "russian":  "русули",
+        "translation":  "русский"
+    },
+    {
+        "georgian":  "ქართული",
+        "russian":  "картули",
+        "translation":  "грузинский"
+    },
+    {
+        "georgian":  "ინგლისური",
+        "russian":  "инглисури",
+        "translation":  "английский"
+    },
+    {
+        "georgian":  "სიტყვა",
+        "russian":  "ситква",
+        "translation":  "слово"
+    },
+    {
+        "georgian":  "ასო",
+        "russian":  "асо",
+        "translation":  "буква"
+    }
 ]
-

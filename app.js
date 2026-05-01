@@ -1,13 +1,49 @@
 const geWordEl = document.getElementById('georgianWord');
 const inputsRowEl = document.getElementById('inputsRow');
 const progressEl = document.getElementById('progress');
+const translationEl = document.getElementById('translation');
 
 const hintBtn = document.getElementById('hintBtn');
 const nextBtn = document.getElementById('nextBtn');
 
 let words = [];
 let current = 0;
+let order = [];
+let orderIndex = 0;
 let focusedInput = null;
+let advanceTimer = null;
+
+function shuffleOrder() {
+  order = words.map((_, idx) => idx);
+  for (let i = order.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+}
+
+function goToNextWord() {
+  clearAdvanceTimer();
+  orderIndex += 1;
+  if (orderIndex >= order.length) {
+    shuffleOrder();
+    orderIndex = 0;
+  }
+  current = order[orderIndex];
+  renderWord();
+}
+
+function goToPreviousWord() {
+  clearAdvanceTimer();
+  orderIndex = (orderIndex - 1 + order.length) % order.length;
+  current = order[orderIndex];
+  renderWord();
+}
+
+function clearAdvanceTimer() {
+  if (!advanceTimer) return;
+  clearTimeout(advanceTimer);
+  advanceTimer = null;
+}
 
 function createLetterInput(expected, geLetter, idx) {
   const wrapper = document.createElement('div');
@@ -66,17 +102,18 @@ function checkWordCompleted() {
   const allInputs = [...inputsRowEl.querySelectorAll('input')];
   const done = allInputs.length && allInputs.every((el) => el.value === el.dataset.expected);
   if (done) {
-    setTimeout(() => {
-      current = (current + 1) % words.length;
-      renderWord();
-    }, 450);
+    translationEl.textContent = words[current].translation;
+    if (!advanceTimer) {
+      advanceTimer = setTimeout(goToNextWord, 1800);
+    }
   }
 }
 
 function renderWord() {
   const word = words[current];
   geWordEl.textContent = word.georgian;
-  progressEl.textContent = `Слово ${current + 1} / ${words.length}`;
+  progressEl.textContent = `Слово ${orderIndex + 1} / ${words.length}`;
+  translationEl.textContent = '';
 
   inputsRowEl.innerHTML = '';
   const russianLetters = [...word.russian];
@@ -100,8 +137,7 @@ function revealHint() {
 hintBtn.addEventListener('click', revealHint);
 
 nextBtn.addEventListener('click', () => {
-  current = (current + 1) % words.length;
-  renderWord();
+  goToNextWord();
 });
 
 let touchStartX = 0;
@@ -111,12 +147,17 @@ inputsRowEl.addEventListener('touchstart', (e) => {
 inputsRowEl.addEventListener('touchend', (e) => {
   const dx = e.changedTouches[0].screenX - touchStartX;
   if (Math.abs(dx) < 40) return;
-  current = dx < 0 ? (current + 1) % words.length : (current - 1 + words.length) % words.length;
-  renderWord();
+  if (dx < 0) {
+    goToNextWord();
+  } else {
+    goToPreviousWord();
+  }
 });
 
 (async function init() {
   const response = await fetch('./words.json');
   words = await response.json();
+  shuffleOrder();
+  current = order[orderIndex];
   renderWord();
 })();
