@@ -1,0 +1,50 @@
+[
+  {
+    "georgian": "ბანკი",
+    "latin": "banki",
+    "meaning": "банк",
+    "similarity": "RU: банк / EN: bank"
+  },
+  {
+    "georgian": "ტაქსი",
+    "latin": "taksi",
+    "meaning": "такси",
+    "similarity": "RU: такси / EN: taxi"
+  },
+  {
+    "georgian": "ტელეფონი",
+    "latin": "teleponi",
+    "meaning": "телефон",
+    "similarity": "RU: телефон / EN: telephone"
+  },
+  {
+    "georgian": "პარკი",
+    "latin": "parki",
+    "meaning": "парк",
+    "similarity": "RU: парк / EN: park"
+  },
+  {
+    "georgian": "ფილმი",
+    "latin": "pilmi",
+    "meaning": "фильм",
+    "similarity": "RU: фильм / EN: film"
+  },
+  {
+    "georgian": "მუზეუმი",
+    "latin": "muzeumi",
+    "meaning": "музей",
+    "similarity": "RU: музей / EN: museum"
+  },
+  {
+    "georgian": "ბიზნესი",
+    "latin": "biznesi",
+    "meaning": "бизнес",
+    "similarity": "RU: бизнес / EN: business"
+  },
+  {
+    "georgian": "ინტერნეტი",
+    "latin": "interneti",
+    "meaning": "интернет",
+    "similarity": "RU: интернет / EN: internet"
+  }
+]
