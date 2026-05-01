@@ -1,50 +1,195 @@
-[
+﻿[
   {
     "georgian": "ბანკი",
-    "latin": "banki",
+    "russian": "банки",
     "meaning": "банк",
     "similarity": "RU: банк / EN: bank"
   },
   {
     "georgian": "ტაქსი",
-    "latin": "taksi",
+    "russian": "такси",
     "meaning": "такси",
     "similarity": "RU: такси / EN: taxi"
   },
   {
     "georgian": "ტელეფონი",
-    "latin": "teleponi",
+    "russian": "телефони",
     "meaning": "телефон",
     "similarity": "RU: телефон / EN: telephone"
   },
   {
     "georgian": "პარკი",
-    "latin": "parki",
+    "russian": "парки",
     "meaning": "парк",
     "similarity": "RU: парк / EN: park"
   },
   {
     "georgian": "ფილმი",
-    "latin": "pilmi",
+    "russian": "филми",
     "meaning": "фильм",
     "similarity": "RU: фильм / EN: film"
   },
   {
     "georgian": "მუზეუმი",
-    "latin": "muzeumi",
+    "russian": "музеуми",
     "meaning": "музей",
     "similarity": "RU: музей / EN: museum"
   },
   {
     "georgian": "ბიზნესი",
-    "latin": "biznesi",
+    "russian": "бизнеси",
     "meaning": "бизнес",
     "similarity": "RU: бизнес / EN: business"
   },
   {
     "georgian": "ინტერნეტი",
-    "latin": "interneti",
+    "russian": "интернети",
     "meaning": "интернет",
     "similarity": "RU: интернет / EN: internet"
+  },
+  {
+    "georgian": "კაფე",
+    "russian": "кафе",
+    "meaning": "кафе",
+    "similarity": "RU: кафе / EN: cafe"
+  },
+  {
+    "georgian": "ოფისი",
+    "russian": "офиси",
+    "meaning": "офис",
+    "similarity": "RU: офис / EN: office"
+  },
+  {
+    "georgian": "მეტრო",
+    "russian": "метро",
+    "meaning": "метро",
+    "similarity": "RU: метро / EN: metro"
+  },
+  {
+    "georgian": "ავტობუსი",
+    "russian": "автобуси",
+    "meaning": "автобус",
+    "similarity": "RU: автобус / EN: bus"
+  },
+  {
+    "georgian": "რესტორანი",
+    "russian": "ресторани",
+    "meaning": "ресторан",
+    "similarity": "RU: ресторан / EN: restaurant"
+  },
+  {
+    "georgian": "კომპიუტერი",
+    "russian": "компиутери",
+    "meaning": "компьютер",
+    "similarity": "RU: компьютер / EN: computer"
+  },
+  {
+    "georgian": "რადიო",
+    "russian": "радио",
+    "meaning": "радио",
+    "similarity": "RU: радио / EN: radio"
+  },
+  {
+    "georgian": "ვიდეო",
+    "russian": "видео",
+    "meaning": "видео",
+    "similarity": "RU: видео / EN: video"
+  },
+  {
+    "georgian": "ფოტო",
+    "russian": "фото",
+    "meaning": "фото",
+    "similarity": "RU: фото / EN: photo"
+  },
+  {
+    "georgian": "მუსიკა",
+    "russian": "музика",
+    "meaning": "музыка",
+    "similarity": "RU: музыка / EN: music"
+  },
+  {
+    "georgian": "გიტარა",
+    "russian": "гитара",
+    "meaning": "гитара",
+    "similarity": "RU: гитара / EN: guitar"
+  },
+  {
+    "georgian": "სპორტი",
+    "russian": "спорти",
+    "meaning": "спорт",
+    "similarity": "RU: спорт / EN: sport"
+  },
+  {
+    "georgian": "თეატრი",
+    "russian": "театри",
+    "meaning": "театр",
+    "similarity": "RU: театр / EN: theater"
+  },
+  {
+    "georgian": "კლასი",
+    "russian": "класи",
+    "meaning": "класс",
+    "similarity": "RU: класс / EN: class"
+  },
+  {
+    "georgian": "უნივერსიტეტი",
+    "russian": "университети",
+    "meaning": "университет",
+    "similarity": "RU: университет / EN: university"
+  },
+  {
+    "georgian": "პასპორტი",
+    "russian": "паспорти",
+    "meaning": "паспорт",
+    "similarity": "RU: паспорт / EN: passport"
+  },
+  {
+    "georgian": "ბარი",
+    "russian": "бари",
+    "meaning": "бар",
+    "similarity": "RU: бар / EN: bar"
+  },
+  {
+    "georgian": "ბაზარი",
+    "russian": "базари",
+    "meaning": "базар",
+    "similarity": "RU: базар / EN: bazaar"
+  },
+  {
+    "georgian": "სალონი",
+    "russian": "салони",
+    "meaning": "салон",
+    "similarity": "RU: салон / EN: salon"
+  },
+  {
+    "georgian": "დოლარი",
+    "russian": "долари",
+    "meaning": "доллар",
+    "similarity": "RU: доллар / EN: dollar"
+  },
+  {
+    "georgian": "ევრო",
+    "russian": "евро",
+    "meaning": "евро",
+    "similarity": "RU: евро / EN: euro"
+  },
+  {
+    "georgian": "პრობლემა",
+    "russian": "проблема",
+    "meaning": "проблема",
+    "similarity": "RU: проблема / EN: problem"
+  },
+  {
+    "georgian": "მინისტრი",
+    "russian": "министри",
+    "meaning": "министр",
+    "similarity": "RU: министр / EN: minister"
+  },
+  {
+    "georgian": "დირექტორი",
+    "russian": "директори",
+    "meaning": "директор",
+    "similarity": "RU: директор / EN: director"
   }
 ]
+

@@ -35,11 +35,16 @@ h1 { margin-bottom: 6px; }
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-.meta, .actions {
+.meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
+}
+
+.top-actions {
+  display: flex;
+  gap: 8px;
 }
 
 button {
@@ -84,12 +89,6 @@ button {
 .inputs-row input.wrong {
   border-color: var(--wrong);
   background: #ffecec;
-}
-
-.meaning {
-  background: #f8f9fc;
-  border-radius: 12px;
-  padding: 10px;
 }
 
 @media (max-width: 480px) {

@@ -8,30 +8,18 @@
 </head>
 <body>
   <main class="app">
-    <header>
-      <h1>Грузинский алфавит</h1>
-      <p class="subtitle">Вводи буквы латиницей и учи написание</p>
-    </header>
-
     <section class="card">
       <div class="meta">
         <span id="progress">Слово 1 / 1</span>
-        <button id="hintBtn" type="button">Подсказка буквы</button>
+        <div class="top-actions">
+          <button id="hintBtn" type="button">Подсказка буквы</button>
+          <button id="nextBtn" type="button">Дальше</button>
+        </div>
       </div>
 
       <div class="word-block">
         <div id="georgianWord" class="ge-word" aria-label="Грузинское слово"></div>
         <div id="inputsRow" class="inputs-row" aria-label="Поля для букв"></div>
-      </div>
-
-      <div class="meaning">
-        <p><strong>Похоже на:</strong> <span id="similarity"></span></p>
-        <p><strong>Значение:</strong> <span id="meaning"></span></p>
-      </div>
-
-      <div class="actions">
-        <button id="prevBtn" type="button">← Предыдущее</button>
-        <button id="nextBtn" type="button">Следующее →</button>
       </div>
     </section>
   </main>

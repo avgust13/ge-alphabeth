@@ -1,15 +1,13 @@
 const geWordEl = document.getElementById('georgianWord');
 const inputsRowEl = document.getElementById('inputsRow');
-const meaningEl = document.getElementById('meaning');
-const similarityEl = document.getElementById('similarity');
 const progressEl = document.getElementById('progress');
 
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
 const hintBtn = document.getElementById('hintBtn');
+const nextBtn = document.getElementById('nextBtn');
 
 let words = [];
 let current = 0;
+let focusedInput = null;
 
 function createLetterInput(expected, geLetter, idx) {
   const wrapper = document.createElement('div');
@@ -25,12 +23,17 @@ function createLetterInput(expected, geLetter, idx) {
   input.autocapitalize = 'off';
   input.spellcheck = false;
   input.inputMode = 'text';
+  input.lang = 'ru';
   input.placeholder = '·';
   input.dataset.expected = expected;
   input.dataset.index = idx;
 
+  input.addEventListener('focus', () => {
+    focusedInput = input;
+  });
+
   input.addEventListener('input', () => {
-    input.value = input.value.toLowerCase().replace(/[^a-z]/g, '');
+    input.value = input.value.toLowerCase().replace(/[^а-яё]/g, '');
     checkInput(input);
     if (input.value && getInputByIndex(idx + 1)) {
       getInputByIndex(idx + 1).focus();
@@ -73,14 +76,12 @@ function checkWordCompleted() {
 function renderWord() {
   const word = words[current];
   geWordEl.textContent = word.georgian;
-  meaningEl.textContent = word.meaning;
-  similarityEl.textContent = word.similarity;
   progressEl.textContent = `Слово ${current + 1} / ${words.length}`;
 
   inputsRowEl.innerHTML = '';
-  const latinLetters = [...word.latin];
+  const russianLetters = [...word.russian];
   const geLetters = [...word.georgian];
-  latinLetters.forEach((letter, idx) => {
+  russianLetters.forEach((letter, idx) => {
     inputsRowEl.appendChild(createLetterInput(letter, geLetters[idx], idx));
   });
 
@@ -88,28 +89,20 @@ function renderWord() {
 }
 
 function revealHint() {
-  const inputs = [...inputsRowEl.querySelectorAll('input')];
-  const target = inputs.find((el) => el.value !== el.dataset.expected);
+  const target = inputsRowEl.contains(focusedInput) ? focusedInput : null;
   if (!target) return;
   target.value = target.dataset.expected;
   checkInput(target);
-  if (getInputByIndex(Number(target.dataset.index) + 1)) {
-    getInputByIndex(Number(target.dataset.index) + 1).focus();
-  }
+  target.focus();
   checkWordCompleted();
 }
 
-prevBtn.addEventListener('click', () => {
-  current = (current - 1 + words.length) % words.length;
-  renderWord();
-});
+hintBtn.addEventListener('click', revealHint);
 
 nextBtn.addEventListener('click', () => {
   current = (current + 1) % words.length;
   renderWord();
 });
-
-hintBtn.addEventListener('click', revealHint);
 
 let touchStartX = 0;
 inputsRowEl.addEventListener('touchstart', (e) => {
