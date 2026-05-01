@@ -104,7 +104,7 @@ function checkWordCompleted() {
   if (done) {
     translationEl.textContent = words[current].translation;
     if (!advanceTimer) {
-      advanceTimer = setTimeout(goToNextWord, 1800);
+      advanceTimer = setTimeout(goToNextWord, 20000);
     }
   }
 }
