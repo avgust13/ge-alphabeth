@@ -56,6 +56,14 @@ button {
   font-weight: 600;
 }
 
+.install-btn {
+  background: #172033;
+}
+
+.install-btn[hidden] {
+  display: none;
+}
+
 .word-block { margin: 18px 0; }
 .ge-word {
   font-size: clamp(32px, 10vw, 64px);

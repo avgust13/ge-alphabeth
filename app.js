@@ -5,6 +5,7 @@ const translationEl = document.getElementById('translation');
 
 const hintBtn = document.getElementById('hintBtn');
 const nextBtn = document.getElementById('nextBtn');
+const installBtn = document.getElementById('installBtn');
 
 let words = [];
 let current = 0;
@@ -12,6 +13,7 @@ let order = [];
 let orderIndex = 0;
 let focusedInput = null;
 let advanceTimer = null;
+let installPrompt = null;
 
 function shuffleOrder() {
   order = words.map((_, idx) => idx);
@@ -138,6 +140,26 @@ hintBtn.addEventListener('click', revealHint);
 
 nextBtn.addEventListener('click', () => {
   goToNextWord();
+});
+
+window.addEventListener('beforeinstallprompt', (event) => {
+  event.preventDefault();
+  installPrompt = event;
+  installBtn.hidden = false;
+});
+
+installBtn.addEventListener('click', async () => {
+  if (!installPrompt) return;
+
+  installBtn.hidden = true;
+  installPrompt.prompt();
+  await installPrompt.userChoice;
+  installPrompt = null;
+});
+
+window.addEventListener('appinstalled', () => {
+  installPrompt = null;
+  installBtn.hidden = true;
 });
 
 let touchStartX = 0;
